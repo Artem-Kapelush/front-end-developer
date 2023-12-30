@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Web-developer</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mobile.css">	
+	<link rel="icon" type="image/x-icon" href="img/logo.svg">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__content">
+				<a class="logo__box" href="#home"><img src="img/logo.png" alt="logo" class="logo"></a>
+				<div class="hamburger-menu">
+				  	<input id="menu__toggle" type="checkbox" />
+				  	<label class="menu__btn" for="menu__toggle">
+				    	<span></span>
+				  	</label>
+				  	<ul class="menu__box">
+				    	<li><a class="menu__item" href="#history">History</a></li>
+				    	<li><a class="menu__item" href="#directions">Directions</a></li>
+				    	<li><a class="menu__item" href="#abilities">Skills and abilities</a></li>
+				    	<li><a class="menu__item" href="#language">Languages</a></li>
+				    	<li><a class="menu__item" href="#benefits">Benefits</a></li>
+				    	<li><a class="menu__item" href="#payment">Payment</a></li>
+				    	<li><a class="menu__item" href="#perspectives">Perspectives</a></li>
+				  	</ul>
+				</div>
+				<ul class="list">
+					<a class="item__link" href="#history"><li class="list__item">History</li></a>
+					<a class="item__link" href="#directions"><li class="list__item">Directions</li></a>
+					<a class="item__link" href="#abilities"><li class="list__item">Skills and abilities</li></a>
+					<a class="item__link" href="#language"><li class="list__item">Languages</li></a>
+					<a class="item__link" href="#benefits"><li class="list__item">Benefits</li></a>
+					<a class="item__link" href="#payment"><li class="list__item">Payment</li></a>
+					<a class="item__link" href="#perspectives"><li class="list__item">Perspectives</li></a>
+				</ul>
+			</div>
+		</header>
+		<main class="main" id="home">
+			<div class="country__flags">
+				<a href="ru.html"><img class="flag" src="img/flag_ru.png"></a>
+				<a href="ua.html"><img class="flag" src="img/flag_ua.png"></a>
+				<a href="usa.html"><img class="flag" src="img/flag_usa.png"></a>
+			</div>
+			<section class="web-developer">
+				<h1>web-developer</h1>
+				<p class="developer__text">
+					A web developer is a specialist who creates new and maintains existing websites. Most often, a web developer works in a team with a designer, tester and manager. He can also work both on the appearance of the site and on its internal, server part. Testing, although not the main one, is also one of the tasks of web programming.<br><br>
+					Online banks, social networks and marketplaces are also sites, only with a more complex structure and functionality. Because of this, they are called web applications, but these services are developed and supported by the same web developer.
+				</p>
+				<img src="img/web_dev.png" class="developer__img">
+				<a class="developer__btn" href="https://kokoc.com/blog/kto-takoj-web-developer/"><button>Read more</button></a>
+			</section>
+			<section class="history" id="history">
+				<h3 class="history__title title">History of the specialty</h3>
+				<img src="img/history.png" class="history__img">
+				<div class="text__block">
+					<p class="history__text">
+						The history of the web developer profession is not so old and dates back to the 90s of the last century. Then the Internet was not so widespread - a graphical interface was required. In 1989, Tim Berners-Lee outlined his concept of a computer platform, which led to the emergence in 1990 hypertext markup language - HTML.
+					</p>
+					<p class="history__text">
+						The first sites were not popular, so web developers were not in demand. However, the Internet, over time, began to appear in every home. It was at that moment that web developers began to be in demand. and site development technologies.
+					</p>
+					<p class="history__text">
+						Now a web developer is one of the most sought-after professions in the world. This is due to several reasons. Firstly, today every second person has access to the Internet and therefore it is very important to satisfy everyone. Secondly, the Internet industry is at the peak of its popularity and until there is a replacement for it. And thirdly, there are very few experienced web developers and therefore they are mostly in large corporations.
+					</p>
+				</div>
+			</section>
+			<section class="directions" id="directions">
+				<h3 class="directions__title title">НDirections in web development</h3>
+				<b class="start">There are three directions in web development:</b>
+				<ul class="directions__list">
+					<li class="directions__item">
+						<b>Backend-developer</b> — a specialist who works with the internal parts of the site: he writes code in different languages, is responsible for the smooth operation of the site, the organization of technical processes and the database. The back-end developer uses the following tools: different programming languages (PHP, Perl, Java, Python, Ruby), frameworks (Kohana, Codeigniter, Yii), and MySQL to save data.
+					</li>
+					<li class="directions__item">
+						<b>Frontend-developer</b> — specialist who works on the visual side of the site. He translates the design project into code, so that the external side of the site will function correctly and images will be displayed everywhere correctly. His main tools - CSS, HTML, JavaScript. This list is complemented by a whole list of other programs designed to improve the site: Bootstrap, jQuery, AngularJS, LESS, Sass/SCSS, etc.
+					</li>
+					<li class="directions__item">
+						<b>Fullstack-developer</b> — a professional who knows how to perform the tasks of a backend and frontend developer. Such masters are quite few, because it is very difficult to master the whole range of knowledge.
+					</li>
+				</ul>
+			</section>
+			<section class="abilities" id="abilities">
+				<h3 class="abilities__title title">Skills and Abilities front-end developer</h3>
+				<ul class="skill__list list__yellow">
+					<li class="skills__type">soft skills</li>
+					<li class="skills">Creativity</li>
+					<li class="skills">Ability to persuade</li>
+					<li class="skills">Ability to work in a team</li>
+					<li class="skills">Adaptability</li>
+					<li class="skills">Time management</li>
+				</ul>
+				<ul class="skill__list list__pink">
+					<li class="skills__type">hard skills</li>
+					<li class="skills">Ability to write clear code</li>
+					<li class="skills">Math knowledge</li>
+					<li class="skills">Ability to search for information in search engines</li>
+					<li class="skills">Solid knowledge of standard libraries, required frameworks and tools</li>
+					<li class="skills">Knowledge of several programming languages</li>
+				</ul>
+			</section>
+			<section class="language" id="language">
+				<h3 class="language__title title">Popular languages and technologies for frontend development</h3>
+				<p class="language__headline">Today there are many programming languages and their derivatives, but there are languages that are more in demand for other</p>
+				<img src="img/vacancies-usa.png" class="vacancies">
+				<ul class="language__list">
+					<li class="language__item">
+						<b>HTML - </b>an acronym for Hypertext Markup Language, is a programming language for creating electronic documents called pages placed on the Internet. Each page has multiple connections to hyperlinks or links to other pages.
+					</li>
+					<li class="language__item">
+						<b>CSS - </b>is a programming language used to describe how documents should look in terms of layout and style. A document usually refers to a text file structure that uses a markup language, such as the widely used HTML and others like XML or SVG.
+					</li>
+					<li class="language__item">
+						<b>React - </b>is a programming language developed by Facebook to create fast and advanced web user interfaces. It is currently one of the most widely used JavaScript libraries for creating web interfaces. The React programming language is suitable for creating visual user interfaces and data visualization for browsers.
+					</li>
+					<li class="language__item">
+						<b>JavaScript - </b>is a popular programming language that allows users to implement complex functions on web pages.It can be triggered anytime a page performs dynamic action, such as showing periodic content updates, animated 2D and 3D graphics, interactive maps, video inserts, and more.
+					</li>
+					<li class="language__item">
+						<b>PHP - </b>is a universal programming language that is easy to use. It works well with a large number of databases and operating systems. Modern frameworks, a massive code base and an active PHP community are all factors that ensure the continuous evolution of PHP.
+					</li>
+				</ul>
+			</section>
+			<section class="benefits" id="benefits">
+				<h3 class="benefits__title title">Pluses and minuses of the profession</h3>
+				<img src="img/advantages.png" class="benefits__img">
+				<div class="benefits__box">
+					<ul class="benefits__list">
+						<b class="list__title advantages">Advantages</b>
+						<li class="benefits__item plus">1. Irreplaceable Professionals</li>
+						<li class="benefits__item plus">2. High standard of living</li>
+						<li class="benefits__item plus">3. A bridgehead for development</li>
+						<li class="benefits__item plus">4. Profession of the future</li>
+						<li class="benefits__item plus">5. The opportunity to become a specialist at a young age</li>				
+					</ul>
+					<ul class="benefits__list">
+						<b class="list__title disadvantages">disadvantages</b>	
+						<li class="benefits__item minus">1. Sitting work</li>
+						<li class="benefits__item minus">2. Constant learning</li>
+					</ul>
+				</div>
+			</section>
+			<section class="payment" id="payment">
+				<h3 class="payment__title title">How much web developers make?</h3>
+				<p class="payment__headline">Indeed, Payscale, Glassdoor cite dramatically different figures of the average salary of developers of different specializations and employment levels in the U.S. market. The amount ranges from $44 to $75 thousand (in Ukraine from 15k UAH to 50k UAH). Statista data show a direct correlation between salary level and location.</p>
+				<b class="level">Specialist levels:</b>
+				<ul class="levels__list">
+					<li class="levels__item">
+						<b>Junior - </b>a novice programmer who knows basic things and understands the principles of his tool. Even if you have only recently begun to learn programming, you can already qualify for the title of june - in the worst case, it will be a job as an intern, which is not bad to start with.
+					</li>
+					<li class="levels__item">
+						<b>Middle - </b>is the developer understands his area of responsibility and is able to make his own decisions on the implementation within his competence. He does not need to spell out the task, give a detailed decomposition. And he understands the work processes within the company.
+					</li>
+					<li class="levels__item">
+						<b>Senior - </b>is the highlight of the program, able to take on a project and even lead a separate department. Senior Developer has a wide range of knowledge, is able to become a mentor for Trainee or Junior Developer, as well as to improve the efficiency of the team by implementing his ideas.
+					</li>
+				</ul>
+				<img class="salary" src="img/salary-usa.png">
+			</section>
+			<section class="perspective" id="perspectives">
+				<h3 class="perspective__title title">Perspectives on the profession</h3>
+				<img class="perspective__img" src="img/perspective.png">
+				<ul class="perspective__list">
+					<li class="perspective__item">
+						Artificial Intelligence<br> The future of the whole world lies in “smart” technologies. This has been reflected in any field for several decades. Once physical strength began to be replaced by robots, the greatest minds began working towards the complete automation of our lives. In addition, in any web development, the graphic component is important. Watch the following short video for the latest trends and creative ideas.
+					</li>
+					<li class="perspective__item">
+						Active transition of business online<br> Today, many businesses are mastering the virtual environment to expand, but there are very few experienced specialists.
+					</li>
+				</ul>
+			</section>
+		</main>
+		<footer class="footer">
+			<p class="copyright">Copyright © Kapelyush Artem 2022 All rights reserved</p>
+		</footer>
+	</div>
+</body>
+</html>

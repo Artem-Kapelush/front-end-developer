@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Веб-разработчик</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mobile.css">	
+	<link rel="icon" type="image/x-icon" href="img/logo.svg">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__content">
+				<a class="logo__box" href="#home"><img src="img/logo.png" alt="logo" class="logo"></a>
+				<div class="hamburger-menu">
+				  	<input id="menu__toggle" type="checkbox" />
+				  	<label class="menu__btn" for="menu__toggle">
+				    	<span></span>
+				  	</label>
+				  	<ul class="menu__box">
+				    	<li><a class="menu__item" href="#history">История</a></li>
+				    	<li><a class="menu__item" href="#directions">Направления</a></li>
+				    	<li><a class="menu__item" href="#abilities">Навыки и Умения</a></li>
+				    	<li><a class="menu__item" href="#language">Языки</a></li>
+				    	<li><a class="menu__item" href="#benefits">Преимущества</a></li>
+				    	<li><a class="menu__item" href="#payment">Оплата</a></li>
+				    	<li><a class="menu__item" href="#perspectives">Перспектива</a></li>
+				  	</ul>
+				</div>
+				<ul class="list">
+					<a class="item__link" href="#history"><li class="list__item">История</li></a>
+					<a class="item__link" href="#directions"><li class="list__item">Направления</li></a>
+					<a class="item__link" href="#abilities"><li class="list__item">Навыки и Умения</li></a>
+					<a class="item__link" href="#language"><li class="list__item">Языки</li></a>
+					<a class="item__link" href="#benefits"><li class="list__item">Преимущества</li></a>
+					<a class="item__link" href="#payment"><li class="list__item">Оплата</li></a>
+					<a class="item__link" href="#perspectives"><li class="list__item">Перспектива</li></a>
+				</ul>
+			</div>
+		</header>
+		<main class="main" id="home">
+			<div class="country__flags">
+				<a href="ru.html"><img class="flag" src="img/flag_ru.png"></a>
+				<a href="ua.html"><img class="flag" src="img/flag_ua.png"></a>
+				<a href="usa.html"><img class="flag" src="img/flag_usa.png"></a>
+			</div>
+			<section class="web-developer">
+				<h1>Веб-разработчик</h1>
+				<p class="developer__text">
+					Веб-разработчик — специалист, который создаёт новые и поддерживает уже существующие сайты. Чаще всего веб-разработчик работает в команде с дизайнером, тестировщиком и менеджером. Также он может работать как над внешним видом сайта, так и над его внутренней, серверной частью. Тестирование — хоть и не основная, но тоже одна из задач веб-программирования. <br><br>
+					Интернет-банки, социальные сети и маркетплейсы — это тоже сайты, только с более сложной структурой и функциональностью. Из-за этого их называют веб-приложениями, но разрабатывает и поддерживает эти сервисы всё тот же веб-разработчик.
+				</p>
+				<img src="img/web_dev.png" class="developer__img">
+				<a class="developer__btn" href="https://kokoc.com/blog/kto-takoj-web-developer/"><button>Подробнее</button></a>
+			</section>
+			<section class="history" id="history">
+				<h3 class="history__title title">История специальности</h3>
+				<img src="img/history.png" class="history__img">
+				<div class="text__block">
+					<p class="history__text">
+						История профессии веб-разработчика не такая уж и старая и берет свое начало в 90-ч годах прошлого столетия. Тогда интернет не был таким распространенным - требовался нрафический интерфес. В 1989 году Тим Бернерс-Ли изложил свою концепцию компьютерной платформы, что призвело к появлению в 1990 году языка гипертекстовой разметки - HTML.
+					</p>
+					<p class="history__text">
+						Первые сайты не пользовались популярностью, поэтому веб-разработчики не был востребованы. Однако интернет, со временем, стал появляться в каждом доме. Именно в тот момент веб-разработчики стали быть востребованными. Для того чтобы сайты стали более презентабельными необходимо было усовершенствовать HTML,техники и технологии создания сайтов.
+					</p>
+					<p class="history__text">
+						Сейчас веб-разработчик это одна с самый востребованных профессий в мире. Это связано с несколькими причинами.Во-первых, сегодня каждый второй имеет доступ в интернет и поэтому очень важно удовлетворить каждого. Во-вторых, интеренет-индустрия находится на пике своей популярности и пока нет ей замены. А в-третих, опытных веб-разработчиков очень мало и поэтому в основном они находятся в крупных корпорациях.
+					</p>
+				</div>
+			</section>
+			<section class="directions" id="directions">
+				<h3 class="directions__title title">Напрямки у веб-розробці</h3>
+				<b class="start">В области веб-разработки существует три направления:</b>
+				<ul class="directions__list">
+					<li class="directions__item">
+						<b>Backend-разработчик</b> — специалист, который работает с внутренними частями сайта: пишет код на различных языках, отвечает за бесперебойную работу сайта, организацию технических процессов и базу данных. Разработчик по бек-энду использует следующий инструментарий: разные языки программирования (PHP, Perl, Java, Python, Ruby), фреймворки (Kohana, Codeigniter, Yii), а также MySQL для сбережения данных.
+					</li>
+					<li class="directions__item">
+						<b>Frontend-разработчик</b> — специалист, который работает над визуальной стороной сайта. Он переводит дизайн-проект в код, чтобы внешняя сторона сайта корректно функционировала и везде отображались правильно картинки. Его основные инструменты – CSS, HTML, JavaScript. Этот перечень дополняется еще целым перечнем программ, предназначенных для улучшения работы сайта: Bootstrap, jQuery, AngularJS, LESS, Sass/SCSS и др.
+					</li>
+					<li class="directions__item">
+						<b>Fullstack-разработчик</b> — профессионал, который умеет выполнять задачи backend и frontend-разработчика. Таких мастеров достаточно мало, потому что очень тяжело освоить весь спектр знаний.
+					</li>
+				</ul>
+			</section>
+			<section class="abilities" id="abilities">
+				<h3 class="abilities__title title">Навыки и Умения frontend-разработчика</h3>
+				<ul class="skill__list list__yellow">
+					<li class="skills__type">soft skills</li>
+					<li class="skills">Креативность</li>
+					<li class="skills">Умение убеждать</li>
+					<li class="skills">Умение работать в команде</li>
+					<li class="skills">Адаптивность</li>
+					<li class="skills">Тайм-менеджмент</li>
+				</ul>
+				<ul class="skill__list list__pink">
+					<li class="skills__type">hard skills</li>
+					<li class="skills">Умение писать понятный код</li>
+					<li class="skills">Математические знания</li>
+					<li class="skills">Умение искать информацию в поисковых системах</li>
+					<li class="skills">Уверенные знания стандартных библиотек, необходимых фреймворков и инструментов</li>
+					<li class="skills">Знания нескольких языков программирования</li>
+				</ul>
+			</section>
+			<section class="language" id="language">
+				<h3 class="language__title title">Популярные языки и технологии для frontend-разработки</h3>
+				<p class="language__headline">На сегодня существуют множество языков программирования и их производных, однако есть языки которые более востребованы за другие</p>
+				<img src="img/vacancies-ru.png" class="vacancies">
+				<ul class="language__list">
+					<li class="language__item">
+						<b>HTML - </b>аббревиатура языка разметки гипертекста – это язык программирования для создания электронных документов, называемых страницами, размещаемыми в Интернете. Каждая страница имеет несколько подключений к гиперссылкам или ссылкам на другие страницы.
+					</li>
+					<li class="language__item">
+						<b>CSS - </b>это язык программирования, используемый для описания того, как документы должны выглядеть с точки зрения макета и стиля. Под документом обычно понимается структура текстового файла, использующая язык разметки, такой как широко распространенный HTML и другие, например XML или SVG.
+					</li>
+					<li class="language__item">
+						<b>React - </b>это язык программирования, разработанный Facebook для создания быстрых и передовых пользовательских веб-интерфейсов. В настоящее время это одна из наиболее широко используемых библиотек JavaScript для создания веб-интерфейсов. Язык программирования React подходит для создания визуальных пользовательских интерфейсов и визуализации данных для браузеров.
+					</li>
+					<li class="language__item">
+						<b>JavaScript - </b>это популярный язык программирования, позволяющий пользователям реализовывать сложные функции на веб-страницах.Он может быть задействован в любой момент, когда страница выполняет динамическое действие, например, показывает периодическое обновление контента, анимированную двухмерную и трехмерную графику, интерактивные карты, видеовставки и многое другое.
+					</li>
+					<li class="language__item">
+						<b>PHP - </b>это универсальный язык программирования, который прост в использовании. Он отлично работает с большим количеством баз данных и операционных систем. Современные фреймворки, массивная база кода и активное сообщество PHP- все эти факторы обеспечивают непрерывную эволюцию PHP.
+					</li>
+				</ul>
+			</section>
+			<section class="benefits" id="benefits">
+				<h3 class="benefits__title title">Плюсы и минусы професии</h3>
+				<img src="img/advantages.png" class="benefits__img">
+				<div class="benefits__box">
+					<ul class="benefits__list">
+						<b class="list__title advantages">Преимущества</b>
+						<li class="benefits__item plus">1. Незаменимые профи</li>
+						<li class="benefits__item plus">2. Высокий уровень жизни</li>
+						<li class="benefits__item plus">3. Плацдарм для развития</li>
+						<li class="benefits__item plus">4. Профессия будущего</li>
+						<li class="benefits__item plus">5. Возможность стать специалистом в молодом возрасте</li>				
+					</ul>
+					<ul class="benefits__list">
+						<b class="list__title disadvantages">Недостатки</b>	
+						<li class="benefits__item minus">1. Сидячая работа</li>
+						<li class="benefits__item minus">2. Постоянная учеба</li>
+					</ul>
+				</div>
+			</section>
+			<section class="payment" id="payment">
+				<h3 class="payment__title title">Сколько получают веб-разработчики?</h3>
+				<p class="payment__headline">Indeed, Payscale, Glassdoor приводят кардинально отличающиеся цифры средней средней заработной платы разработчиков разных специализаций и уровней занятости на рынке США. Сумма колеблется от $44 до $75 тысяч( в Украине от 15к грн до 50к грн). Данные Statista указывают на прямую зависимость уровня оплата труда и местоположения.</p>
+				<b class="level">Уровни специалистов:</b>
+				<ul class="levels__list">
+					<li class="levels__item">
+						<b>Junior - </b>начинающий программист, который знает базовые вещи и понимает принципы работы своего инструмента. Даже если вы только недавно начали изучать программирование, то уже можете претендовать на звание джуна – в худшем случае это будет вакансия стажера, что неплохо для начала.
+					</li>
+					<li class="levels__item">
+						<b>Middle - </b>это разработчик понимает свою зону ответственности и способен самостоятельно принимать решения по реализации в рамках своей компетенции. Ему не нужно разжёвывать задачу, приводить подробную декомпозицию. И он понимает рабочие процессы внутри компании.
+					</li>
+					<li class="levels__item">
+						<b>Senior - </b>это гвоздь программы, способный взять на себя проект и даже руководить отдельным подразделением. Senior Developer обладает обширным багажом знаний, способен стать ментором для Trainee или Junior разработчика, а также улучшать эффективность команды за счёт реализации своих идей.
+					</li>
+				</ul>
+				<img class="salary" src="img/salary-ru.png">
+			</section>
+			<section class="perspective" id="perspectives">
+				<h3 class="perspective__title title">Перспективы профессии</h3>
+				<img class="perspective__img" src="img/perspective.png">
+				<ul class="perspective__list">
+					<li class="perspective__item">
+						Искусственный интеллект<br> За «разумными» технологиями будущее всего мира. Это отображается в любой сфере уже несколько десятков лет. Как только физическая сила начала заменяться роботами, величайшие умы приступили к работе над полной автоматизацией наших жизней. Кроме того, в любой веб разработке важно именно графическая составляющая. Свежие тренды и креативные идеи смотрите в следующем коротком видео.
+					</li>
+					<li class="perspective__item">
+						Активный переход бизнеса в онлайн<br> Сегодня многие бизнесы для расширения осваивают виртуальную среду, однако опытных специолистов очень мало.
+					</li>
+				</ul>
+			</section>
+		</main>
+		<footer class="footer">
+			<p class="copyright">Copyright © Капелюш Артём 2022 Все права защищены</p>
+		</footer>
+	</div>
+</body>
+</html>
