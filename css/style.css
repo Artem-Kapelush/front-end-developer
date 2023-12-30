@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+html {
+	scroll-behavior: smooth;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+}
+.wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.header{
+	background: #F6F5FB;
+	width: 100%;
+	height: 70px;
+
+	display: flex;
+	justify-content: center;
+}
+.title {
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 700;
+	color: #135B92;
+}
+.header__content,
+.web-developer,
+.history,
+.directions,
+.abilities,
+.language,
+.benefits,
+.payment,
+.perspective {
+	width: 90%;
+	height: 100%;
+}
+.header__content,
+.web-developer,
+.list,
+.history,
+.benefits,
+.perspective,
+.levels__list {
+	display: flex;
+	justify-content: space-between;
+}
+.list__item,
+.benefits__item,
+.levels__item {
+	list-style-type: none;
+}
+.developer__text,
+.developer__img,
+.history__title,
+.directions__title, 
+.directions__item,
+.start,
+.abilities__title,
+.language__headline,
+.vacancies,
+.language__item,
+.benefits__list {
+ 	padding-bottom: 20px;
+}
+.header__content {
+	align-items: center;
+}
+.logo {
+/*	width: 100%;*/
+}
+.list {
+	width: 70%;
+	align-items: center;
+}
+.list__item {
+	font-size: 0.9em;
+}
+.item__link {
+	color: #000; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.item__link:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+.item__link:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.hamburger-menu{
+    display: none;
+}
+#menu__toggle {
+	opacity: 0;
+}
+/* стилизуем кнопку */
+.menu__btn {
+	display: flex; /* используем flex для центрирования содержимого */
+	align-items: center;  /* центрируем содержимое кнопки */
+  	position: fixed;
+  	top: 15px;
+  	left: 310px;
+  	width: 39px;
+  	height: 39px;
+  	cursor: pointer;
+  	z-index: 1;
+}
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  	display: block;
+  	position: absolute;
+  	width: 100%;
+  	height: 3px;
+  	background-color: #000;
+}
+.menu__btn > span::before {
+  	content: '';
+  	top: -12px;
+}
+.menu__btn > span::after {
+  	content: '';
+  	top: 12px;
+}
+/* контейнер меню */
+.menu__box {
+  	display: block;
+  	position: fixed;
+  	visibility: hidden;
+  	top: 0;
+  	left: 100%;
+  	width: 250px;
+  	height: 100%;
+  	margin: 0;
+  	padding: 80px 0;
+  	list-style: none;
+  	text-align: center;
+  	background-color: #ECEFF1;
+  	box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  	margin-left: 125px;
+}
+/* элементы меню */
+.menu__item {
+  	display: block;
+  	padding: 12px 24px;
+  	color: #333;
+  	font-family: 'Roboto', sans-serif;
+  	font-size: 1.4em;
+  	font-weight: 600;
+  	text-decoration: none;
+}
+.menu__item:hover {
+  	background-color: #CFD8DC;
+}
+#menu__toggle:checked ~ .menu__btn > span {
+  	transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  	top: 0;
+  	transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  	top: 0;
+  	transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  	visibility: visible;
+  	left: 0;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  	transition-duration: .25s;
+}
+.menu__box {
+  	transition-duration: .25s;
+}
+.menu__item {
+  	transition-duration: .25s;
+}
+.main {
+	width: 100%;
+	padding-top: 10px;
+}
+.country__flags {
+	width: 90%;
+	margin: 0 auto;
+	text-align: right;
+}
+.flag {
+	width: 35px;
+	height: 25px;
+}
+.web-developer {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+
+	align-items: center;
+	flex-wrap: wrap;
+}
+h1 {
+	width: 100%;
+	font-weight: 700;
+	padding-bottom: 20px;
+	font-size: 2.875em;
+	color: #135b92;
+	text-align: center;
+	text-transform: uppercase;
+}
+.developer__text {
+	font-size: 1.250em;
+	width: 50%;
+}
+.developer__img {
+	width: 49%;
+}
+.developer__btn {
+	width: 30%;
+	padding: 30px;
+/*	height: 84px;*/
+	background: #9f5799;
+	border-radius: 5px;
+	margin: 0 auto;
+	text-align: center;
+}
+button {
+	font-size: 1.25em;
+	background: none;
+	border: none;
+	color: #fff;
+}
+.history {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: 0 auto;
+
+	align-items: center;
+	flex-wrap: wrap;	
+}
+.history__img {
+	width: 40%;	
+}
+.text__block {
+	width: 60%;	
+}
+.history__text {
+	text-indent: 30px;	
+	padding-bottom: 1.5em;
+}
+.directions {
+	padding: 30px 40px 10px;
+	border-radius: 20px;
+	background: #F6F5FB;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: column;
+}
+.start {
+	padding-top: 20px;
+}
+.abilities {
+	padding: 40px 60px;
+	padding-right: 0;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: column;	
+}
+.skill__list {
+	width: 100%;
+	padding: 20px 60px;
+}
+.skills__type {
+	font-weight: 600;
+	font-size: 1.250em;
+	text-transform: uppercase;
+	padding: 20px 0;
+	list-style-type: none;
+}
+.skills {
+	padding-bottom: 5px;
+}
+.list__pink {
+	background: url(../img/violet_block.png);
+}
+.list__yellow {
+	background: url(../img/yellow_block.png);
+	margin-bottom: 45px;
+}
+.language {
+	padding: 30px 0;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.language__headline {
+	padding-top: 20px;
+	text-align: center;
+	width: 80%;
+}
+.vacancies {
+	width: 50%;
+}
+.language__list {
+	width: 92.75%;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.language__item {
+	font-size: 1em;
+	list-style-type: none;
+}
+.benefits {
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+.benefits__title {
+	padding-bottom: 30px;
+}
+.benefits__img {
+	width: 50%;
+	padding-bottom: 40px;
+}
+.benefits__box {
+	padding-top: 30px;
+	width: 47.5%;
+}
+.benefits__list {
+	padding-bottom: 20px;
+}
+.list__title {
+	line-height: 45px;
+	font-weight: 600;
+	font-size: 1.250em;
+	text-transform: uppercase;
+}
+.payment {
+	padding-bottom: 40px;
+	padding-left: 42.5px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: column;
+}
+.payment__title {
+	padding: 30px 0;
+}
+.payment__headline {
+	padding-bottom: 20px;
+}
+.levels__list {
+	width: 80%;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.levels__item {
+	padding-top: 20px;
+	font-size: 1em;
+}
+.salary {
+	width: 60%;
+	align-self: center;
+}
+.perspective {
+	margin: 0 auto;
+	padding-left: 42.5px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+
+	flex-wrap: wrap;
+}
+.perspective__title {
+	padding-bottom: 30px;
+}
+.perspective__img {
+	width: 37.5%;
+	padding-bottom: 20px;
+}
+.persp {
+	width: 100%;
+}
+.perspective__list {
+	width: 60%;
+}
+.perspective__item {
+	width: 80%;
+	padding-top: 20px;
+	font-size: 1.125em;
+	list-style-type: none;
+}
+.footer {
+	width: 100%;
+	height: 80px;
+	background: #E2DCDC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.copyright {
+	font-size: 1em;
+}

@@ -1,0 +1,227 @@
+@media screen and (max-width: 768px) {
+	.logo {
+		width: 80%;
+	}
+	.logo__box {
+		width: 22.5%;
+	}
+	.header__content {
+		width: 97.5%;
+	}
+	.list {
+		width: 77.5%;
+	}
+	.list__item {
+		font-size: 0.85em;
+	}
+	.flag {
+		width: 47px;
+		height: 35px;
+	}
+	.web-developer {
+		flex-direction: column;
+	}
+	.developer__img {
+		width: 60%;
+		order: 1;
+	}
+	.developer__text,
+	.text__block,
+	.directions__item, 
+	.start,
+	.skills__type,
+	.skills,
+	.language__headline,
+	.language__item,
+	.payment__headline,
+	.level,
+	.levels__item,
+	.perspective__item {
+		font-size: 1.250em;
+	}
+	.developer__text {
+		margin-bottom: 20px;
+		width: 90%;
+		order: 2;
+	}
+	.developer__btn {
+		width: 45%;
+		order: 3;
+	}
+	.history {
+		justify-content: center;
+		flex-direction: column;
+	}
+	.history__title {
+		padding-bottom: 40px;
+	}
+	.text__block {
+		width: 90%;
+	}
+	.title {
+		margin: 0 auto;
+		width: 90%;
+		font-size: 2.5em;
+	}
+	.history__img {
+		width: 60%;
+	}
+	.list__pink {
+		background: #C678BF;
+	}
+	.list__yellow {
+		background: #F6CF44;
+	}
+	.abilities {
+		padding-left: 0;
+	}
+	.skill__list {
+		padding-left: 50px;
+		border-radius: 20px;
+	}
+	.skills__type {
+		text-align: center;
+	}
+	.vacancies {
+		width: 80%;
+	}
+	.benefits__img {
+		width: 60%;
+	}
+	.benefits__box {
+		padding-top: 0;
+		width: 40%;
+	}
+	.benefits__list {
+		padding-bottom: 10px;
+	}
+	.payment {
+		width: 80%;
+		padding-left: 0px;
+	}
+	.levels__list {
+		width: 100%;
+	}
+	.salary {
+		width: 80%;
+	}
+	.perspective {
+		padding-left: 0;
+		justify-content: center;
+	}
+	.perspective__img {
+		width: 65%;
+	}
+	.perspective__list {
+		width: 90%;
+	}
+	.perspective__item {
+		width: 100%;
+	}
+}	
+@media (min-width: 200px) and (max-width: 320px) {
+	.menu__btn {
+	  	left: 255px;
+	}
+	.menu__box {
+		width: 200px;
+	  	margin-left: 120px;
+	}
+}
+@media (min-width: 425px) and (max-width: 767px) {
+	.menu__btn {
+	  	left: 365px;
+	}
+	.menu__box {
+		width: 200px;
+	  	margin-left: 220px;
+	}
+}	
+@media (min-width: 320px) and (max-width: 425px) {
+	.header {
+		position: fixed;	
+	}
+	.logo {
+		width: 100%;
+	}
+	.logo__box {
+		width: 60%;
+	}
+	.hamburger-menu{
+	    display: block;
+	}
+	.list {
+		display: none;
+	}
+	.country__flags {
+		padding-top: 70px;
+		text-align: center;
+	}
+	.flag {
+		width: 50px;
+		height: 34px;
+	}
+	.web-developer {
+		padding-top: 10px;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	.developer__text, 
+	.text__block, 
+	.directions__item, 
+	.start,
+	.skills__type,
+	.skills,
+	.language__headline,
+	.language__item,
+	.benefits__item,
+	.payment__headline,
+	.level,
+	.levels__item,
+	.perspective__item {
+		font-size: 1.375em;
+	}
+	.developer__img {
+		width: 85%;
+	}
+	.developer__btn {
+		width: 65%;
+	}
+	.title {
+		width: 85%;
+		font-size: 1.875em;
+	}
+	.history__img {
+		width: 70%;
+		padding-bottom: 20px;
+	}
+	.text__block {
+		width: 80%;
+	}
+	.vacancies {
+		width: 90%;
+	}
+	.benefits {
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.benefits__img {
+		width: 90%;
+		padding-bottom: 20px;
+	}
+	.benefits__box {
+		width: 80%;
+	}
+	.list__title {
+		font-size: 1.5em;
+	}
+	.salary {
+		width: 100%;
+	}
+	.perspective__img {
+		width: 80%;
+	}
+}	
